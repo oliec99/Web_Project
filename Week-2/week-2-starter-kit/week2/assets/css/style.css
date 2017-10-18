@@ -9,9 +9,42 @@
 /* Basic elements */
 a {
   text-decoration: none;
-  color: #f90;
+  color: orange;
 }
 
+a:hover{
+	background-color: pink;
+}
+
+img{
+	width: 30%;
+	float: left;
+}
+
+.search-form{
+	float: right;
+}
+
+nav{
+	float: middle;
+}
+
+article{
+	float: left;
+	width: 75%;
+}
+
+ul{
+	padding-right: 50px;
+	padding-top:0px;
+	float: right;
+}
+
+h2{
+	padding-top: 20px;
+	padding-right: 40px;
+	float:right;
+}
 /* Header styles */
 
 

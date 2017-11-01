@@ -1,0 +1,25 @@
+/* Articles */
+.main-content {
+  float: left;
+  width: 70%;
+  padding-right: 2em;
+  box-sizing: border-box;
+}
+
+article{
+  padding-bottom: 1.25em;
+}
+
+.pagination{
+  clear: both;
+  overflow: hidden;
+}
+
+.pagination a:first-child{
+  float: left;
+}
+
+.pagination a:last-child{
+  float: right;
+}
+

@@ -1,0 +1,140 @@
+/* Basic elements */
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.logo {
+  max-height: 100px;
+  margin-top: 1.25em; }
+
+/* Layout classes */
+.l-container, .modal {
+  width: 1024px;
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden; }
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.heading, h1 {
+  font-size: 100px; }
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+/* Buttons */
+button,
+.button,
+.button--cta,
+.operators span {
+  display: inline-block;
+  background: #4c8187;
+  border: 1px solid #437177;
+  color: #fff;
+  padding: 8px 1em;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out; }
+
+button:hover,
+.button:hover,
+.button--cta:hover,
+.operators span:hover {
+  background: #437177; }
+
+button:focus,
+.button:focus,
+.button--cta:focus,
+.operators span:focus {
+  background: #B3B68D;
+  border-color: #B3B68D; }
+
+button:hover {
+  background: black;
+  color: white; }
+
+.button--cta {
+  background: #DD0000;
+  border-color: #AA0000; }
+
+.button--cta:hover {
+  background: #AA0000; }
+
+/* Inputs */
+label {
+  font-weight: 300; }
+
+input {
+  background: #fff;
+  border: 1px solid #4c8187;
+  border-radius: 4px;
+  padding: 8px 1em; }
+
+input[type="number"] {
+  margin-bottom: 1.25em; }
+
+.operators {
+  margin-bottom: 1.25em; }
+
+.operators input {
+  display: none; }
+
+.operators input:checked ~ span {
+  background: #B3B68D;
+  border-color: #B3B68D; }
+
+#result {
+  font-weight: bold;
+  color: #DD0000; }
+
+.modal__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  background: rgba(0, 0, 0, 0.1); }
+
+.modal__wrapper.is-visible {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.modal {
+  background: #fff;
+  opacity: 0;
+  border-radius: 4px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.4s ease-in-out; }
+
+.modal__wrapper.is-visible .modal {
+  opacity: 1; }
+
+.modal__header,
+.modal__body,
+.modal__footer {
+  padding: 2px 1em; }
+
+.modal__header {
+  background: #B3B68D;
+  border-bottom: 1px solid #B3B68D; }
+
+.modal__body {
+  min-height: 100px; }
+
+.modal__footer {
+  padding: 8px 1em;
+  border-top: 1px solid #B3B68D;
+  text-align: right; }
+
+/*# sourceMappingURL=style.css.map */

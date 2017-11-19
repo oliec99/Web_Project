@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Week 2 - Atomic Design | The Hayton Academy</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <script src="C:\Users\olive\Documents\Web Project\Oliver Chilton - week-4-javascript\starter-kit\assets\js\script.js"></script>
+  <script>getActiveRadioButton();</script>
+  <header class="l-container">
+    <img src="assets/img/logo.png" class="logo" />
+  </header>
+
+  <main class="l-container">
+    <h1>Fallibroome Calculator</h1>
+
+    <form>
+
+      <div class="operators">
+
+        <label>
+          <input type="radio" name="operator" value="add" checked="checked" />
+          <span>&plus;</span>
+        </label>
+        <label>
+          <input type="radio" name="operator" value="subtract" />
+          <span>&minus;</span>
+        </label>
+        <label>
+          <input type="radio" name="operator" value="divide" />
+          <span>&divide;</span>
+        </label>
+        <label>
+          <input type="radio" name="operator" value="multiply" />
+          <span>&times;</span>
+        </label>
+      </div>
+
+      <div>
+        <input type="number" id="value-a" placeholder="Value A" />
+      </div>
+
+      <div>
+        <input type="number" id="value-b" placeholder="Value B" />
+      </div>
+
+      <button type="button" class="button--cta">Calculate</button>
+
+
+    </form>
+
+
+
+    <div class="modal__wrapper">
+
+      <div class="modal">
+
+        <div class="modal__header">
+          <h2>Results</h2>
+        </div>
+
+        <div class="modal__body">
+
+          <p>The answer is... <span id="result">???</span></p>
+
+        </div>
+
+        <div class="modal__footer">
+          <button type="button" class="button--cta">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>

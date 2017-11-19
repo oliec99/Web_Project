@@ -1,0 +1,21 @@
+.operators{
+  margin-bottom: 1.25em;
+}
+
+.operators span {
+  @extend .button;
+}
+
+.operators input {
+  display: none;
+}
+
+.operators input:checked ~ span {
+  background: $olive;
+  border-color: $olive;
+}
+
+#result{
+  font-weight: bold;
+  color: $red;
+}
